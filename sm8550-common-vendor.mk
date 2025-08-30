@@ -1177,6 +1177,7 @@ PRODUCT_PACKAGES += \
     SoterService \
     uimgbaservice \
     ImsRcsService \
+    PowerOffAlarm \
     QtiTelephonyService \
     QtiTelephony \
     ims \
@@ -1188,6 +1189,7 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.imscmservice-V2.1-java \
     com.qualcomm.qti.imscmservice-V2.2-java \
     qcrilhook \
+    vendor.qti.hardware.alarm-V1.0-java \
     vendor.qti.ims.callcapability-V1.0-java \
     vendor.qti.ims.callcapabilityaidlservice-V1-java \
     vendor.qti.ims.callinfo-V1.0-java \
