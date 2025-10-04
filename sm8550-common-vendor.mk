@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8550-common/proprietary/odm/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-service.rc \
     vendor/xiaomi/sm8550-common/proprietary/odm/etc/init/vendor.xiaomi.hardware.otrpagent@2.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.otrpagent@2.0-service.rc \
     vendor/xiaomi/sm8550-common/proprietary/odm/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-service.rc \
+    vendor/xiaomi/sm8550-common/proprietary/odm/etc/init/vendor.xiaomi.sensor.communicate@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.sensor.communicate@1.0-service.rc \
     vendor/xiaomi/sm8550-common/proprietary/odm/etc/izat_device.conf:$(TARGET_COPY_OUT_ODM)/etc/izat_device.conf \
     vendor/xiaomi/sm8550-common/proprietary/odm/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nci.conf \
     vendor/xiaomi/sm8550-common/proprietary/odm/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp.conf \
@@ -1132,6 +1133,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.modem.qms@1.0 \
     vendor.xiaomi.sensor.citsensorservice@1.1 \
     vendor.xiaomi.sensor.citsensorservice@2.0 \
+    vendor.xiaomi.sensor.communicate@1.0 \
     lib-imsvideocodec \
     lib-imsvt \
     lib-imsvtextutils \
@@ -1145,6 +1147,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.1 \
     consumerir.qcom \
     libaudioroute_ext \
+    libclient2slpi.notifier \
     libmfido \
     libmiClstc \
     libmiXmlParser \
@@ -1153,6 +1156,7 @@ PRODUCT_PACKAGES += \
     libmlipay@1.1 \
     libmt \
     libmt@1.3 \
+    libsensor_cal@2.0 \
     libstnfc-auth \
     libtida@1.2 \
     libwvkeybox \
@@ -1263,6 +1267,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.camera.postproc-impl.xml \
     vendor.qti.camera.provider.xml \
     vendor.qti.gnss-service.xml \
+    vendor.xiaomi.sensor.communicate@1.0_manifest.xml \
     ATFWD-daemon \
     TrustedUISampleTAClient \
     TrustedUISampleTest \
@@ -1381,6 +1386,7 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-aidl-service-qti \
     android.hardware.nfc@1.2-service-st \
     vendor.nxp.hardware.nfc@2.0-service \
+    vendor.xiaomi.sensor.communicate@1.0-service \
     mlipayd@1.1 \
     mrmd \
     mtd@1.3 \
