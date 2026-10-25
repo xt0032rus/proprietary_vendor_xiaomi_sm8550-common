@@ -445,7 +445,6 @@ PRODUCT_PACKAGES += \
     libTrustedUI \
     libTrustedUITZ \
     libTrustedUIVM \
-    lib_bt_lhdc \
     lib_misound_asc \
     libadm \
     libadreno_utils \
